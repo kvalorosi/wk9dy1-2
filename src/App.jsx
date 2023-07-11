@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import { Nav } from './components/Nav'
+import  Navb  from './components/Navb'
 import  Other  from './views/Other'
 import Home from './views/Home'
 
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Nav />
+      <Navb />
       <Routes>
       <Route children path='/' element={<Home />} />
       <Route children path='/other' element={<Other />} />
