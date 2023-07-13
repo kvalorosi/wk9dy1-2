@@ -1,15 +1,8 @@
-#root {
-  background-image: "https://images.freeimages.com/images/previews/f98/black-coffee-1185883.jpg";
-  max-width: 1280px;
+.container{
+  display: flex;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  
 }
 
 
-
-
-.card {
-  padding: 2em;
-}
 
